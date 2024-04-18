@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
           appBar: AppBar(
             // elevation: 4,
-            title: const Text('Home'),
+            title: const Text('Thrift Shop'),
             leading: AppBarIcons(
               function: () {
                 Navigator.push(
@@ -144,7 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Row(
                           children: [
                             const Text(
-                              "Latest Products",
+                              "All Products",
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
                                 fontSize: 18,
